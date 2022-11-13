@@ -1,0 +1,62 @@
+.promo {
+  position: relative;
+  height: 100vh;
+  background-image: url(../../img/header/header_bg.jpg);
+  @include bg-cover;
+
+
+  &__wrapper {
+    height: 23.1rem;
+    @include flex-column-center-sb-w;
+  }
+
+  &__inner{
+    margin-top: 8.1rem;
+    text-align: center;
+
+  }
+
+  &__title {
+    text-transform: uppercase;
+    font-size: 7.6rem;
+    line-height: 122%;
+    font-family: Impact;
+    font-weight: 400;
+    letter-spacing: .02rem;
+  }
+
+  &__subtitle {
+    font-size: 4.6rem;
+    line-height: 122%;
+    font-family: Impact;
+    font-weight: 400;
+  }
+
+  &__paragr {
+    font-size: 1.8rem;
+    line-height: 122%;
+    color: #363636;
+    &_gold {
+      font-family: impact, serif;
+      color: #9F6B08;
+      font-weight: 400;
+      font-size: 3.4em;
+      line-height: 122%;
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__divider {
+    margin-bottom: 1rem;
+  }
+
+  &__arrow{
+    position: absolute;
+    bottom: 3rem;
+    transition: all .5s;
+    &:hover{
+      transform: scale(1.1);
+    }
+  }
+}
+

@@ -1,4 +1,54 @@
-.header{
-    color:#fff;
-    
+.header {
+    min-width: 100vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-size: 1.6rem;
+    background: linear-gradient(180deg, #D8D4CA 0%, rgba(217, 217, 217, 0) 100%);
+    z-index: 100;
+
+
+    &__container {
+        max-width: 110rem;
+        padding: 5rem 1rem 0;
+        margin: 0 auto;
+
+
+    }
+}
+.nav {
+    position: relative;
+    @include flex-all-sb;
+
+
+
+    &__list {
+    }
+
+    &__item {
+    }
+
+    &__link {
+    }
+}
+.menu {
+    color: #363636;
+
+    &_left {
+        @include flex-all-sb-w;
+        gap: 4rem;
+        padding-left: 2rem;
+    }
+
+    &_right {
+        @include flex-all-sb-w;
+        gap: 4rem;
+        padding-right: 8rem;
+    }
+}
+.logo {
+    position: absolute;
+    left: 46%;
+    transform: translateX(-15%);
+    z-index: 100;
 }

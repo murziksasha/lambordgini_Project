@@ -27,6 +27,13 @@
   justify-content: space-between;
 }
 
+@mixin flex-all-sb-w {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 @mixin flex-all-sa{
   display: flex;
   align-items: center;
@@ -37,6 +44,13 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+@mixin flex-column-center-sb-w{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 @mixin bg-cover {
