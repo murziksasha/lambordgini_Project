@@ -1,0 +1,79 @@
+.info {
+  padding: 10rem 0;
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: max-content max-content max-content max-content;
+    column-gap: 2rem;
+  }
+
+  &__item {
+    &_info {
+      grid-column: 1/2;
+      grid-row: 1/2;
+      margin-bottom: 3rem;
+    }
+
+    &_par {
+      grid-column: 2/3;
+      grid-row: 1/2;
+      align-self: center;
+      margin-bottom: 3rem;
+    }
+
+    &_img-final {
+      grid-column: 1/3;
+      grid-row: 2/3;
+      margin-bottom: 10rem;
+    }
+
+    &_team {
+      grid-column: 1/2;
+      grid-row: 3/4;
+      margin-bottom: 6.6rem;
+    }
+
+    &_img-road {
+      grid-column: 2/3;
+      grid-row: 3/4;
+      align-self: center;
+      margin-bottom: 6.6rem;
+    }
+
+    &_calendar {
+      grid-column: 1/2;
+      grid-row: 4/5;
+      margin-bottom: 10rem;
+    }
+
+    &_table {
+      grid-column: 2/3;
+      grid-row: 4/5;
+      margin-bottom: 10rem;
+    }
+  }
+}
+
+
+.items {
+  color: #040404;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 120%;
+  &__inner {
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  &__block {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__divider {
+    width: 100%;
+  }
+}
