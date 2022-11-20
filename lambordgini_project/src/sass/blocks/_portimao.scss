@@ -1,0 +1,26 @@
+.portimao {
+  min-height: 89rem;
+  background: url('../../img/portimao/portimao_bg.jpg') center center/cover no-repeat;
+  position: relative;
+
+
+
+  &__wrapper {
+    padding: 4.7rem 0 9rem;
+
+  }
+
+  &__title {
+  }
+
+  &__descr {
+    width: 44rem;
+  }
+
+  &__trace{
+    position: absolute;
+    bottom: 9rem;
+    left: 49rem;
+  }
+}
+

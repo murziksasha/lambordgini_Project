@@ -1,0 +1,111 @@
+
+.trofeo {
+  
+  
+  &__top{
+    padding: 10rem 0 5rem;
+    background: #363636;
+    min-height: 88rem;
+    color: #fff;
+    @include flex-column-center-sb-w;
+    position: relative;
+
+  }
+
+  &__wrapper-top {
+    @include flex-all-sb-w;
+    
+    
+  }
+
+  &__wrapper-bottom {
+    width: 100%;
+   
+  }
+
+  &__title {
+    color: #fff;
+    flex-basis: 27rem;
+    align-self: flex-start;
+  }
+
+  &__descr {
+    flex-basis: 44rem;
+  }
+
+  &__par:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+
+  &__bottom {
+    @include flex-all-sb;
+
+  }
+
+  &__bottom-par {
+  }
+
+  &__wrapper {
+    padding: 12.7rem 0 10rem;
+
+  }
+
+  &__sota {
+  }
+
+  &__descr-part {
+  }
+
+  &__video {
+    padding-top: 10rem;
+  }
+}
+
+.sota {
+  position: absolute;
+  top: 322px;
+  left: 207px;
+  z-index: 15;
+
+  &__main-img {
+  }
+
+  &__big-car {
+    position: absolute;
+    top: 209px;
+    left: 240px;
+  }
+
+  &__small-car {
+    position: absolute;
+    top: 618px;
+    left: 528px;
+  }
+}
+.descr-part {
+
+  &__wrapper {
+    @include flex-all-sb;
+  }
+
+  &__left {
+    max-height: 30rem;
+    @include flex-column-start;
+    row-gap: 3rem;
+  }
+
+  &__par-short {
+    max-width: 28.5rem;
+  }
+
+  &__par-middle {
+    max-width: 44rem;
+  }
+
+  &__par-long {
+    max-width: 59rem;
+  }
+
+  &__right {
+  }
+}
