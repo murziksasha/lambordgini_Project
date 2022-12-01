@@ -1,3 +1,88 @@
 .footer {
-  text-align: center;
+  background: #363636;
+
+  &__wrapper {
+    padding: 168px 0 100px;
+    color: #fff;
+  }
+
+  &__describe-inner {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+  }
+
+  &__describe-left {
+    min-height: 42rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__title {
+    color: #fff;
+    margin-bottom: 5rem;
+  }
+
+  &__phones {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem 0;
+  }
+
+  &__small-title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    margin-bottom: 2rem;
+  }
+
+  &__phone {
+  }
+
+  &__email {
+  }
+
+  &__social {
+    display: flex;
+    gap: 2rem;
+  }
+
+  &__social-ico {
+  }
+
+  &__describe-right {
+
+  }
+
+  &__describe-paragr{
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    margin-bottom: 2rem;
+  }
+
+  &__map {
+    display: block;
+    margin-top: 2rem;
+  }
+
+  &__bottom {
+    margin-top: 10.7rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__bottom-design {
+  }
+
+  &__bottom-logo {
+  }
+
+  &__conf{
+
+  }
 }
+
